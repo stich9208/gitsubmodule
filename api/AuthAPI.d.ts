@@ -14,6 +14,7 @@ export namespace IAuthAPI {
   interface SignInRequestBody {
     email: string;
     password: string;
+    name: string;
   }
 
   interface SignInResponseBody {
